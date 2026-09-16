@@ -185,15 +185,15 @@ These tools focus primarily on detecting licenses, copyrights and licensing info
 
 | Project | Stars | Primary Capability | License |
 | --------------------------------------------------------------------- | ------------------- | --------------------------------------------- | ----------------- |
-| [Licensee](https://github.com/licensee/licensee) | [![GitHub stars](https://img.shields.io/github/stars/licensee/licensee?style=social&color=white)](https://github.com/licensee/licensee/stargazers) | Detect repository license automatically | MIT |
-| [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit) | [![GitHub stars](https://img.shields.io/github/stars/aboutcode-org/scancode-toolkit?style=social&color=white)](https://github.com/aboutcode-org/scancode-toolkit/stargazers) | License + copyright + package detection | Apache-2.0 |
-| [REUSE](https://github.com/fsfe/reuse-tool) | [![GitHub stars](https://img.shields.io/github/stars/fsfe/reuse-tool?style=social&color=white)](https://github.com/fsfe/reuse-tool/stargazers) | Repository license and copyright metadata compliance | GPL-3.0 |
-| [FOSSology](https://github.com/fossology/fossology) | [![GitHub stars](https://img.shields.io/github/stars/fossology/fossology?style=social&color=white)](https://github.com/fossology/fossology/stargazers) | License / copyright / export-control scanning workflow | GPL-2.0 |
-| [SPDX License List](https://github.com/spdx/license-list-data) | [![GitHub stars](https://img.shields.io/github/stars/spdx/license-list-data?style=social&color=white)](https://github.com/spdx/license-list-data/stargazers) | Canonical license metadata & SPDX expressions | CC0-1.0 |
-| [licensecheck](https://github.com/fossology/licensecheck) | [![GitHub stars](https://img.shields.io/github/stars/fossology/licensecheck?style=social&color=white)](https://github.com/fossology/licensecheck/stargazers) | Fast license detection library and CLI tool | GPL-2.0 |
-| [license-detector](https://github.com/go-enry/go-license-detector) | [![GitHub stars](https://img.shields.io/github/stars/go-enry/go-license-detector?style=social&color=white)](https://github.com/go-enry/go-license-detector/stargazers) | Go project license detection library & CLI | Apache-2.0 |
-| [AskALicense](https://github.com/benbalter/askalicense) | [![GitHub stars](https://img.shields.io/github/stars/benbalter/askalicense?style=social&color=white)](https://github.com/benbalter/askalicense/stargazers) | License identification and API metadata service | MIT |
-| [Ninka](https://github.com/dmgerman/ninka) | [![GitHub stars](https://img.shields.io/github/stars/dmgerman/ninka?style=social&color=white)](https://github.com/dmgerman/ninka/stargazers) | Source code license scanner using regex matching | GPL-2.0 |
+| [Licensee](https://github.com/licensee/licensee) | [![GitHub_Stars](https://img.shields.io/github/stars/licensee/licensee?style=social&color=white)](https://github.com/licensee/licensee/stargazers) | Detect repository license automatically | MIT |
+| [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit) | [![GitHub_Stars](https://img.shields.io/github/stars/aboutcode-org/scancode-toolkit?style=social&color=white)](https://github.com/aboutcode-org/scancode-toolkit/stargazers) | License + copyright + package detection | Apache-2.0 |
+| [REUSE](https://github.com/fsfe/reuse-tool) | [![GitHub_Stars](https://img.shields.io/github/stars/fsfe/reuse-tool?style=social&color=white)](https://github.com/fsfe/reuse-tool/stargazers) | Repository license and copyright metadata compliance | GPL-3.0 |
+| [FOSSology](https://github.com/fossology/fossology) | [![GitHub_Stars](https://img.shields.io/github/stars/fossology/fossology?style=social&color=white)](https://github.com/fossology/fossology/stargazers) | License / copyright / export-control scanning workflow | GPL-2.0 |
+| [SPDX License List](https://github.com/spdx/license-list-data) | [![GitHub_Stars](https://img.shields.io/github/stars/spdx/license-list-data?style=social&color=white)](https://github.com/spdx/license-list-data/stargazers) | Canonical license metadata & SPDX expressions | CC0-1.0 |
+| [licensecheck](https://github.com/fossology/licensecheck) | [![GitHub_Stars](https://img.shields.io/github/stars/fossology/licensecheck?style=social&color=white)](https://github.com/fossology/licensecheck/stargazers) | Fast license detection library and CLI tool | GPL-2.0 |
+| [license-detector](https://github.com/go-enry/go-license-detector) | [![GitHub_Stars](https://img.shields.io/github/stars/go-enry/go-license-detector?style=social&color=white)](https://github.com/go-enry/go-license-detector/stargazers) | Go project license detection library & CLI | Apache-2.0 |
+| [AskALicense](https://github.com/benbalter/askalicense) | [![GitHub_Stars](https://img.shields.io/github/stars/benbalter/askalicense?style=social&color=white)](https://github.com/benbalter/askalicense/stargazers) | License identification and API metadata service | MIT |
+| [Ninka](https://github.com/dmgerman/ninka) | [![GitHub_Stars](https://img.shields.io/github/stars/dmgerman/ninka?style=social&color=white)](https://github.com/dmgerman/ninka/stargazers) | Source code license scanner using regex matching | GPL-2.0 |
 
 
 
@@ -367,16 +367,16 @@ SCA tools identify the third-party components and dependencies contained within 
 
 | Project | Stars | Dependency Analysis | License Analysis | SBOM | Vulnerabilities |
 | ----------------------------------------------------------------------- | ------------------- | :-----------------: | :--------------: | :--: | :-------------: |
-| [Trivy](https://github.com/aquasecurity/trivy) | [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers) | ✅ | ✅ | ✅ | ✅ |
-| [Syft](https://github.com/anchore/syft) | [![GitHub stars](https://img.shields.io/github/stars/anchore/syft?style=social&color=white)](https://github.com/anchore/syft/stargazers) | ✅ | ⚠️ | ✅ | ❌ |
-| [OSV-Scanner](https://github.com/google/osv-scanner) | [![GitHub stars](https://img.shields.io/github/stars/google/osv-scanner?style=social&color=white)](https://github.com/google/osv-scanner/stargazers) | ✅ | ❌ | ⚠️ | ✅ |
-| [Grype](https://github.com/anchore/grype) | [![GitHub stars](https://img.shields.io/github/stars/anchore/grype?style=social&color=white)](https://github.com/anchore/grype/stargazers) | ✅ | ❌ | ⚠️ | ✅ |
-| [Dependency-Track](https://github.com/DependencyTrack/dependency-track) | [![GitHub stars](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=social&color=white)](https://github.com/DependencyTrack/dependency-track/stargazers) | ⚠️ | ⚠️ | ✅ | ✅ |
-| [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit) | [![GitHub stars](https://img.shields.io/github/stars/aboutcode-org/scancode-toolkit?style=social&color=white)](https://github.com/aboutcode-org/scancode-toolkit/stargazers) | ✅ | ✅ | ✅ | ⚠️ |
-| [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort) | [![GitHub stars](https://img.shields.io/github/stars/oss-review-toolkit/ort?style=social&color=white)](https://github.com/oss-review-toolkit/ort/stargazers) | ✅ | ✅ | ✅ | ✅ |
-| [FOSSology](https://github.com/fossology/fossology) | [![GitHub stars](https://img.shields.io/github/stars/fossology/fossology?style=social&color=white)](https://github.com/fossology/fossology/stargazers) | ⚠️ | ✅ | ✅ | ⚠️ |
-| [SW360](https://github.com/eclipse-sw360/sw360) | [![GitHub stars](https://img.shields.io/github/stars/eclipse-sw360/sw360?style=social&color=white)](https://github.com/eclipse-sw360/sw360/stargazers) | ⚠️ | ✅ | ✅ | ✅ |
-| [ScanCode.io](https://github.com/aboutcode-org/scancode.io) | [![GitHub stars](https://img.shields.io/github/stars/aboutcode-org/scancode.io?style=social&color=white)](https://github.com/aboutcode-org/scancode.io/stargazers) | ✅ | ✅ | ✅ | ✅ |
+| [Trivy](https://github.com/aquasecurity/trivy) | [![GitHub_Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers) | ✅ | ✅ | ✅ | ✅ |
+| [Syft](https://github.com/anchore/syft) | [![GitHub_Stars](https://img.shields.io/github/stars/anchore/syft?style=social&color=white)](https://github.com/anchore/syft/stargazers) | ✅ | ⚠️ | ✅ | ❌ |
+| [OSV-Scanner](https://github.com/google/osv-scanner) | [![GitHub_Stars](https://img.shields.io/github/stars/google/osv-scanner?style=social&color=white)](https://github.com/google/osv-scanner/stargazers) | ✅ | ❌ | ⚠️ | ✅ |
+| [Grype](https://github.com/anchore/grype) | [![GitHub_Stars](https://img.shields.io/github/stars/anchore/grype?style=social&color=white)](https://github.com/anchore/grype/stargazers) | ✅ | ❌ | ⚠️ | ✅ |
+| [Dependency-Track](https://github.com/DependencyTrack/dependency-track) | [![GitHub_Stars](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=social&color=white)](https://github.com/DependencyTrack/dependency-track/stargazers) | ⚠️ | ⚠️ | ✅ | ✅ |
+| [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit) | [![GitHub_Stars](https://img.shields.io/github/stars/aboutcode-org/scancode-toolkit?style=social&color=white)](https://github.com/aboutcode-org/scancode-toolkit/stargazers) | ✅ | ✅ | ✅ | ⚠️ |
+| [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort) | [![GitHub_Stars](https://img.shields.io/github/stars/oss-review-toolkit/ort?style=social&color=white)](https://github.com/oss-review-toolkit/ort/stargazers) | ✅ | ✅ | ✅ | ✅ |
+| [FOSSology](https://github.com/fossology/fossology) | [![GitHub_Stars](https://img.shields.io/github/stars/fossology/fossology?style=social&color=white)](https://github.com/fossology/fossology/stargazers) | ⚠️ | ✅ | ✅ | ⚠️ |
+| [SW360](https://github.com/eclipse-sw360/sw360) | [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-sw360/sw360?style=social&color=white)](https://github.com/eclipse-sw360/sw360/stargazers) | ⚠️ | ✅ | ✅ | ✅ |
+| [ScanCode.io](https://github.com/aboutcode-org/scancode.io) | [![GitHub_Stars](https://img.shields.io/github/stars/aboutcode-org/scancode.io?style=social&color=white)](https://github.com/aboutcode-org/scancode.io/stargazers) | ✅ | ✅ | ✅ | ✅ |
 
 
 
@@ -1056,13 +1056,13 @@ License compliance increasingly overlaps with software supply-chain security.
 
 | Project | Stars | License | SBOM | Vulnerabilities | Licenses |
 | ----------------------------------------------------------------------- | ------------------- | :--------: | :--: | :-------------: | :------: |
-| [Trivy](https://github.com/aquasecurity/trivy) | [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers) | Apache-2.0 | ✅ | ✅ | ✅ |
-| [Syft](https://github.com/anchore/syft) | [![GitHub stars](https://img.shields.io/github/stars/anchore/syft?style=social&color=white)](https://github.com/anchore/syft/stargazers) | Apache-2.0 | ✅ | ❌ | ⚠️ |
-| [OSV-Scanner](https://github.com/google/osv-scanner) | [![GitHub stars](https://img.shields.io/github/stars/google/osv-scanner?style=social&color=white)](https://github.com/google/osv-scanner/stargazers) | Apache-2.0 | ⚠️ | ✅ | ❌ |
-| [Grype](https://github.com/anchore/grype) | [![GitHub stars](https://img.shields.io/github/stars/anchore/grype?style=social&color=white)](https://github.com/anchore/grype/stargazers) | Apache-2.0 | ⚠️ | ✅ | ❌ |
-| [Dependency-Track](https://github.com/DependencyTrack/dependency-track) | [![GitHub stars](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=social&color=white)](https://github.com/DependencyTrack/dependency-track/stargazers) | Apache-2.0 | ✅ | ✅ | ⚠️ |
-| [ScanCode](https://github.com/aboutcode-org/scancode-toolkit) | [![GitHub stars](https://img.shields.io/github/stars/aboutcode-org/scancode-toolkit?style=social&color=white)](https://github.com/aboutcode-org/scancode-toolkit/stargazers) | Apache-2.0 | ✅ | ⚠️ | ✅ |
-| [ORT](https://github.com/oss-review-toolkit/ort) | [![GitHub stars](https://img.shields.io/github/stars/oss-review-toolkit/ort?style=social&color=white)](https://github.com/oss-review-toolkit/ort/stargazers) | Apache-2.0 | ✅ | ✅ | ✅ |
+| [Trivy](https://github.com/aquasecurity/trivy) | [![GitHub_Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers) | Apache-2.0 | ✅ | ✅ | ✅ |
+| [Syft](https://github.com/anchore/syft) | [![GitHub_Stars](https://img.shields.io/github/stars/anchore/syft?style=social&color=white)](https://github.com/anchore/syft/stargazers) | Apache-2.0 | ✅ | ❌ | ⚠️ |
+| [OSV-Scanner](https://github.com/google/osv-scanner) | [![GitHub_Stars](https://img.shields.io/github/stars/google/osv-scanner?style=social&color=white)](https://github.com/google/osv-scanner/stargazers) | Apache-2.0 | ⚠️ | ✅ | ❌ |
+| [Grype](https://github.com/anchore/grype) | [![GitHub_Stars](https://img.shields.io/github/stars/anchore/grype?style=social&color=white)](https://github.com/anchore/grype/stargazers) | Apache-2.0 | ⚠️ | ✅ | ❌ |
+| [Dependency-Track](https://github.com/DependencyTrack/dependency-track) | [![GitHub_Stars](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=social&color=white)](https://github.com/DependencyTrack/dependency-track/stargazers) | Apache-2.0 | ✅ | ✅ | ⚠️ |
+| [ScanCode](https://github.com/aboutcode-org/scancode-toolkit) | [![GitHub_Stars](https://img.shields.io/github/stars/aboutcode-org/scancode-toolkit?style=social&color=white)](https://github.com/aboutcode-org/scancode-toolkit/stargazers) | Apache-2.0 | ✅ | ⚠️ | ✅ |
+| [ORT](https://github.com/oss-review-toolkit/ort) | [![GitHub_Stars](https://img.shields.io/github/stars/oss-review-toolkit/ort?style=social&color=white)](https://github.com/oss-review-toolkit/ort/stargazers) | Apache-2.0 | ✅ | ✅ | ✅ |
 
 
 
