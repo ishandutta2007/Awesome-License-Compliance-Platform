@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Accent Neon Gradients -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Glowing Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0% { opacity: 0.3; transform: scale(0.98); }
+      50% { opacity: 0.8; transform: scale(1.02); }
+      100% { opacity: 0.3; transform: scale(0.98); }
+    }
+    @keyframes float-node {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes shimmer {
+      0% { stop-color: #6366f1; }
+      33% { stop-color: #38bdf8; }
+      66% { stop-color: #ec4899; }
+      100% { stop-color: #6366f1; }
+    }
+    .animated-bg-circle {
+      animation: pulse 6s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .floating-card {
+      animation: float-node 4s ease-in-out infinite;
+    }
+    .floating-card-delayed {
+      animation: float-node 5s ease-in-out infinite 1.5s;
+    }
+  </style>
+
+  <!-- Base Card Background -->
+  <rect width="1200" height="300" rx="16" fill="url(#bg-grad)" stroke="#334155" stroke-width="2" />
+
+  <!-- Dynamic Glowing Background Spheres -->
+  <circle cx="200" cy="80" r="140" fill="url(#glow-grad)" class="animated-bg-circle" />
+  <circle cx="1000" cy="220" r="160" fill="url(#accent-grad)" opacity="0.25" class="animated-bg-circle" style="animation-delay: 2s;" />
+
+  <!-- Geometric Grid Accent Overlay -->
+  <path d="M0 50 H1200 M0 100 H1200 M0 150 H1200 M0 200 H1200 M0 250 H1200" stroke="#1e293b" stroke-width="1" opacity="0.4" />
+  <path d="M200 0 V300 M400 0 V300 M600 0 V300 M800 0 V300 M1000 0 V300" stroke="#1e293b" stroke-width="1" opacity="0.4" />
+
+  <!-- Top Accent Bar -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accent-grad)" />
+
+  <!-- Scale / Balance Icon Graphics (Left Floating Card) -->
+  <g class="floating-card" filter="url(#soft-shadow)">
+    <rect x="70" y="60" width="140" height="180" rx="12" fill="#1e293b" stroke="#475569" stroke-width="1.5" opacity="0.9" />
+    <circle cx="140" cy="110" r="28" fill="#312e81" stroke="#818cf8" stroke-width="2" />
+    <!-- Balance Scale SVG Path -->
+    <path d="M140 98 V122 M128 106 H152 M124 122 L132 106 L140 122 M140 122 L148 106 L156 122" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <text x="140" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1" text-anchor="middle">LICENSE</text>
+    <text x="140" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">COMPLIANCE</text>
+    <rect x="90" y="202" width="100" height="14" rx="7" fill="#10b981" opacity="0.8" />
+    <text x="140" y="213" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="800" fill="#ffffff" text-anchor="middle">PASSED 100%</text>
+  </g>
+
+  <!-- Main Center Header Content -->
+  <g text-anchor="middle" filter="url(#soft-shadow)">
+    <!-- Badge -->
+    <rect x="440" y="45" width="320" height="28" rx="14" fill="#1e1b4b" stroke="#6366f1" stroke-width="1" />
+    <text x="600" y="63" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#a855f7" letter-spacing="1">
+      ⚖️ OPEN-SOURCE GOVERNANCE &amp; SCA
+    </text>
+
+    <!-- Main Title -->
+    <text x="600" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+      Awesome License Compliance
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="500" fill="#94a3b8">
+      Software Composition Analysis • License Scanners • SBOM Tools • Policy-as-Code
+    </text>
+
+    <!-- Feature Pills -->
+    <g transform="translate(340, 200)">
+      <rect x="0" y="0" width="140" height="32" rx="16" fill="#0f172a" stroke="#334155" />
+      <text x="70" y="21" font-family="sans-serif" font-size="12" font-weight="600" fill="#38bdf8">🔍 License Scanners</text>
+
+      <rect x="155" y="0" width="130" height="32" rx="16" fill="#0f172a" stroke="#334155" />
+      <text x="220" y="21" font-family="sans-serif" font-size="12" font-weight="600" fill="#a855f7">📋 SBOM Standards</text>
+
+      <rect x="300" y="0" width="135" height="32" rx="16" fill="#0f172a" stroke="#334155" />
+      <text x="367" y="21" font-family="sans-serif" font-size="12" font-weight="600" fill="#ec4899">🛡️ Governance</text>
+    </g>
+  </g>
+
+  <!-- Right Floating Graphic Card -->
+  <g class="floating-card-delayed" filter="url(#soft-shadow)">
+    <rect x="990" y="60" width="140" height="180" rx="12" fill="#1e293b" stroke="#475569" stroke-width="1.5" opacity="0.9" />
+    <circle cx="1060" cy="110" r="28" fill="#312e81" stroke="#a855f7" stroke-width="2" />
+    <!-- Code / Shield Icon -->
+    <path d="M1060 96 L1076 104 V116 C1076 126 1060 132 1060 132 C1060 132 1044 126 1044 116 V104 Z" stroke="#a855f7" stroke-width="2" fill="none" stroke-linejoin="round" />
+    <text x="1060" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1" text-anchor="middle">ENTERPRISE</text>
+    <text x="1060" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#a855f7" text-anchor="middle">AUDIT READY</text>
+    <rect x="1010" y="202" width="100" height="14" rx="7" fill="#6366f1" opacity="0.8" />
+    <text x="1060" y="213" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="800" fill="#ffffff" text-anchor="middle">SPDX / CYCLONEDX</text>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <rect x="0" y="294" width="1200" height="6" fill="url(#accent-grad)" />
+</svg>
