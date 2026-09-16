@@ -1,192 +1,113 @@
-# Awesome-License-Compliance-Platform
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome License Compliance Platform Banner" width="100%" />
+</p>
 
 # ⚖️ Top License Compliance Platforms & Open-Source License Compliance
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome List"/></a>
+  <img src="https://img.shields.io/badge/License-Compliance-blue.svg" alt="License Compliance"/>
+  <img src="https://img.shields.io/badge/SBOM-Governance-green.svg" alt="SBOM Governance"/>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+> 🛡️ A curated list of **software license compliance platforms ⚖️, open-source governance tools 🏛️, license scanners 🔍, SBOM tools 📋, FOSS compliance systems 🏢, and open-source alternatives 🌍** for managing third-party software licensing risk and software composition analysis (SCA).
 
-> A curated list of **software license compliance platforms, open-source governance tools, license scanners, SBOM tools, FOSS compliance systems and open-source alternatives** for managing third-party software licensing risk.
+Modern software is assembled from thousands of open-source and third-party components 📦. License compliance platforms help organizations discover those components 🔍, identify their licenses 📜, understand legal obligations ⚖️, enforce policies 🚨, and generate attribution / disclosure documentation 🧾.
 
+This repository focuses primarily on **open-source and self-hostable license compliance software** 🌐, while maintaining a separate list of commercial platforms such as FOSSA, Black Duck, Mend, JFrog Xray, Sonatype Lifecycle, Snyk License, Protecode, ScanCode Enterprise, ClearlyDefined and Palamida.
 
-
-Modern software is assembled from thousands of open-source and third-party components. License compliance platforms help organizations discover those components, identify their licenses, understand obligations, enforce policies and generate attribution / disclosure documentation.
-
-
-
-This repository focuses primarily on **open-source and self-hostable license compliance software**, while maintaining a separate list of commercial platforms such as FOSSA, Black Duck, Mend, JFrog Xray, Sonatype Lifecycle, Snyk License, Protecode, ScanCode Enterprise, ClearlyDefined and Palamida.
-
-
-
-A modern license compliance architecture typically combines:
-
-
+A modern license compliance architecture typically combines 🏗️:
 
 ```text
-
-Source Code
-
+Source Code 💻
     +
-
-Dependency Analysis
-
+Dependency Analysis 🧬
     +
-
-License Detection
-
+License Detection 🔍
     +
-
-Copyright Detection
-
+Copyright Detection ⚖️
     +
-
-SBOM
-
+SBOM Generation & Ingestion 📋
     +
-
-License Metadata
-
+License Metadata & Intelligence 🗂️
     +
-
-Policy Engine
-
+Policy Engine (Policy-as-Code) 🛡️
     +
-
-Obligation Analysis
-
+Obligation Analysis 🚨
     +
-
-Attribution / Notices
-
+Attribution / Notices 🧾
     +
-
-Legal Review
-
+Legal Review Workflow 👩‍⚖️
     =
-
-Software License Compliance
-
+Complete Software License Compliance ⚖️
 ```
 
-
-
-> **Important:** License compliance is broader than vulnerability scanning. A strong program needs component discovery, license identification, license expressions, obligations, policy decisions, provenance, SBOMs and human/legal review.
-
-
+> **Important:** 💡 License compliance is broader than vulnerability scanning. A strong program needs component discovery 📦, license identification 📜, license expressions (SPDX), obligations ⚖️, policy decisions 🛡️, provenance 📍, SBOMs 📋, and human/legal review 👩‍⚖️.
 
 ---
-
-
 
 ## 📑 Table of Contents
 
-
-
 * [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
-
 * [🌍 Open-Source](#-open-source)
-
 * [🔍 Open-Source License Scanners](#-open-source-license-scanners)
-
 * [🏢 Open-Source FOSS Compliance Platforms](#-open-source-foss-compliance-platforms)
-
 * [📦 Open-Source Software Composition Analysis](#-open-source-software-composition-analysis)
-
 * [📋 Open-Source SBOM Tools](#-open-source-sbom-tools)
-
 * [⚖️ Open-Source License Policy & Compliance](#️-open-source-license-policy--compliance)
-
 * [🧾 Open-Source Attribution & Notice Generation](#-open-source-attribution--notice-generation)
-
 * [🗂️ Open-Source License Databases](#️-open-source-license-databases)
-
 * [🔗 Open-Source Component Catalogs](#-open-source-component-catalogs)
-
 * [🧬 Open-Source Dependency Analysis](#-open-source-dependency-analysis)
-
 * [🔐 Open-Source Supply Chain Scanners](#-open-source-supply-chain-scanners)
-
 * [💻 Language-Specific License Compliance](#-language-specific-license-compliance)
-
 * [🧩 Commercial Platform → Open-Source Equivalent](#-commercial-platform--open-source-equivalent)
-
 * [🏗️ License Compliance Architecture](#️-license-compliance-architecture)
-
 * [🔄 Open-Source License Compliance Pipeline](#-open-source-license-compliance-pipeline)
-
 * [📦 SBOM → License Compliance Architecture](#-sbom--license-compliance-architecture)
-
 * [⚖️ Commercial vs Open-Source](#️-commercial-vs-open-source)
-
 * [🚀 Recommended Open-Source Stacks](#-recommended-open-source-stacks)
-
 * [📊 License Compliance Technology Comparison](#-license-compliance-technology-comparison)
-
 * [🎯 Recommended Projects by Use Case](#-recommended-projects-by-use-case)
-
 * [🏢 Building a FOSSA Alternative](#-building-a-fossa-alternative)
-
 * [🏭 Building an Enterprise OSS Compliance Platform](#-building-an-enterprise-oss-compliance-platform)
-
 * [🌐 Open-Source License Compliance Landscape](#-open-source-license-compliance-landscape)
-
 * [🧠 Why Open-Source License Compliance Matters](#-why-open-source-license-compliance-matters)
-
+* [📈 Star History](#-star-history)
+* [💖 Support & Sponsorship](#-support--sponsorship)
 * [🤝 Contributing](#-contributing)
-
 * [⚠️ Disclaimer](#️-disclaimer)
-
-
 
 ---
 
-
-
 # ☁️ SaaS/Hosted Platforms
 
+The global Software Composition Analysis (SCA) and Software License Compliance market is estimated at **$1.8 Billion – $2.5 Billion** and is **moderately fragmented**, undergoing steady consolidation by security platform vendors alongside established compliance specialists.
 
+Commercial license compliance platforms combine software composition analysis, license intelligence, policy management, SBOMs, vulnerability management and enterprise governance workflows.
 
-Commercial license compliance platforms combine software composition analysis, license intelligence, policy management, SBOMs, vulnerability management and enterprise workflows.
-
-
-
-| Platform                                                                                 | Company                    | Primary Focus              | Key Capabilities                                                     |
-
-| ---------------------------------------------------------------------------------------- | -------------------------- | -------------------------- | -------------------------------------------------------------------- |
-
-| [FOSSA](https://fossa.com/)                                                              | FOSSA                      | Open-source compliance     | License detection, policies, attribution, SBOMs, dependency analysis |
-
-| [Black Duck](https://www.blackduck.com/)                                                 | Black Duck / Synopsys      | Enterprise SCA             | License compliance, vulnerability management, snippet analysis, SBOM |
-
-| [Mend](https://www.mend.io/)                                                             | Mend                       | Application security / SCA | Open-source governance, license compliance, dependency analysis      |
-
-| [JFrog Xray](https://jfrog.com/xray/)                                                    | JFrog                      | Software supply chain      | Binary analysis, license policies, vulnerabilities, artifacts        |
-
-| [Sonatype Lifecycle](https://www.sonatype.com/products/sonatype-lifecycle)               | Sonatype                   | Component governance       | License policy, dependency intelligence, SCA                         |
-
-| [Snyk License Compliance](https://snyk.io/)                                              | Snyk                       | Developer security         | Open-source licenses, dependencies, vulnerabilities, policy          |
-
-| [Protecode](https://www.protecode.com/)                                                  | Protecode                  | OSS compliance             | License analysis, SBOM and software composition                      |
-
-| [ScanCode Enterprise](https://www.aboutcode.org/)                                        | AboutCode                  | Software composition       | License/copyright detection, SBOM, provenance and compliance         |
-
-| [ClearlyDefined](https://clearlydefined.io/)                                             | ClearlyDefined / community | License metadata           | Curated license and component metadata                               |
-
-| [Palamida](https://www.palamida.com/)                                                    | Palamida                   | OSS governance             | Open-source discovery, license compliance and governance             |
-
-| [FOSSOLOGY Enterprise Services](https://www.fossology.org/)                              | FOSSology ecosystem        | FOSS compliance            | License scanning and compliance workflows                            |
-
-| [Mend Renovate](https://www.mend.io/renovate/)                                           | Mend                       | Dependency management      | Dependency discovery and upgrade automation                          |
-
-| [Revenera Code Insight](https://www.revenera.com/products/software-composition-analysis) | Revenera                   | OSS compliance             | License analysis, component identification and SBOM                  |
-
-| [Flexera One](https://www.flexera.com/)                                                  | Flexera                    | Software asset management  | Software inventory and license governance                            |
-
-| [Anchore Enterprise](https://anchore.com/)                                               | Anchore                    | Container / SBOM security  | SBOM, policy, vulnerabilities and license controls                   |
-
-| [Scribe](https://scribesecurity.com/)                                                    | Scribe Security            | Software supply chain      | SBOM, provenance, policy and supply-chain governance                 |
-
-| [Endor Labs](https://www.endorlabs.com/)                                                 | Endor Labs                 | SCA                        | Dependency intelligence, OSS risk and governance                     |
-
-| [Legit Security](https://www.legitsecurity.com/)                                         | Legit Security             | Software supply chain      | Application security and software supply-chain governance            |
+| Platform | Company | Company Size (Valuation / Revenue) | Starting Price | Free Tier / Free Trial Limits | Primary Focus | Key Capabilities |
+| ---------------------------------------------------------------------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------------------------------------------------- |
+| [Synopsys Black Duck](https://www.blackduck.com/) | Black Duck / Synopsys | $5.3B Revenue (Synopsys AST / Black Duck ~$500M ARR) | $10,000 / year base | 30-day free trial (Limited repository scans & reports) | Enterprise SCA | License compliance, vulnerability management, snippet analysis, SBOM |
+| [Snyk License Compliance](https://snyk.io/) | Snyk | $7.4B Valuation (~$300M ARR) | $25 / developer / month | Free forever (25 open-source security scans / month) | Developer security | Open-source licenses, dependencies, vulnerabilities, policy |
+| [JFrog Xray](https://jfrog.com/xray/) | JFrog | $3.5B Valuation (~$400M Revenue) | $99 / month | 30-day free trial (Cloud Trial with 200GB storage & transfer) | Software supply chain | Binary analysis, license policies, vulnerabilities, artifacts |
+| [Flexera One](https://www.flexera.com/) | Flexera | ~$400M Revenue | $15,000 / year base | 14-day request-based trial | Software asset management | Software inventory and license governance |
+| [Legit Security](https://www.legitsecurity.com/) | Legit Security | $300M Valuation | $10,000 / year base | 14-day request-based trial | Software supply chain | Application security and software supply-chain governance |
+| [Endor Labs](https://www.endorlabs.com/) | Endor Labs | $250M Valuation | $10 / developer / month | 30-day free trial (Full reachability & dependency audit) | SCA | Dependency intelligence, OSS risk and governance |
+| [Sonatype Lifecycle](https://www.sonatype.com/products/sonatype-lifecycle) | Sonatype | ~$150M ARR | $120 / developer / year | 14-day free trial (Full feature evaluation) | Component governance | License policy, dependency intelligence, SCA |
+| [FOSSA](https://fossa.com/) | FOSSA | $150M Valuation (~$25M ARR) | $100 / month | Free forever (1 project, basic license scanning & notice generation) | Open-source compliance | License detection, policies, attribution, SBOMs, dependency analysis |
+| [Mend](https://www.mend.io/) | Mend | ~$100M ARR | $12,000 / year base | 30-day free trial (Full SCA suite access) | Application security / SCA | Open-source governance, license compliance, dependency analysis |
+| [Mend Renovate](https://www.mend.io/renovate/) | Mend | ~$100M ARR (Parent company) | $0 / month (Community self-hosted) | Free forever (Self-hosted app with unlimited PRs) | Dependency management | Dependency discovery and upgrade automation |
+| [Revenera Code Insight](https://www.revenera.com/products/software-composition-analysis) | Revenera / Flexera | ~$100M Revenue (Division) | $10,000 / year base | 14-day request-based trial | OSS compliance | License analysis, component identification and SBOM |
+| [Anchore Enterprise](https://anchore.com/) | Anchore | ~$30M ARR | $10,000 / year base | 15-day free trial (Includes Enterprise SBOM & scanner features) | Container / SBOM security | SBOM, policy, vulnerabilities and license controls |
+| [Scribe Security](https://scribesecurity.com/) | Scribe Security | ~$10M Valuation | $49 / month | Free forever (Up to 5 pipelines / builds per month) | Software supply chain | SBOM, provenance, policy and supply-chain governance |
+| [ScanCode Enterprise](https://www.aboutcode.org/) | AboutCode / nexB | ~$5M Revenue | $2,500 / year base | 30-day evaluation instance | Software composition | License/copyright detection, SBOM, provenance and compliance |
+| [Protecode](https://www.protecode.com/) | Protecode / Synopsys | Legacy Synopsys asset | $5,000 / year base | 14-day request-based trial | OSS compliance | License analysis, SBOM and software composition |
+| [Palamida](https://www.palamida.com/) | Palamida / Flexera | Legacy Flexera asset | $10,000 / year base | 14-day request-based trial | OSS governance | Open-source discovery, license compliance and governance |
+| [FOSSOLOGY Enterprise Services](https://www.fossology.org/) | FOSSology ecosystem | Community / Non-profit | $0 / month | Free forever (Community edition open-source software) | FOSS compliance | License scanning and compliance workflows |
+| [ClearlyDefined](https://clearlydefined.io/) | ClearlyDefined / OSI | Open source community project | $0 / month | Free forever (Open public API and metadata database) | License metadata | Curated license and component metadata |
 
 
 
@@ -262,27 +183,17 @@ These tools focus primarily on detecting licenses, copyrights and licensing info
 
 
 
-| Project                                                               | Primary Capability                            | License           |
-
-| --------------------------------------------------------------------- | --------------------------------------------- | ----------------- |
-
-| [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit) | License + copyright + package detection       | Apache-2.0        |
-
-| [FOSSology](https://github.com/fossology/fossology)                   | License / copyright / export-control scanning | GPL-2.0           |
-
-| [Licensee](https://github.com/licensee/licensee)                      | Detect repository license                     | MIT               |
-
-| [licensecheck](https://github.com/FOSSology/licensecheck)             | License detection                             | GPL-2.0           |
-
-| [go-license-detector](https://github.com/elastic/go-elasticsearch)    | Go license detection ecosystem                | Project-dependent |
-
-| [Ninka](https://github.com/dmgerman/ninka)                            | License identification                        | GPL               |
-
-| [AskALicense](https://github.com/benbalter/askalicense)               | License identification / metadata             | MIT               |
-
-| [REUSE](https://github.com/fsfe/reuse-tool)                           | License / copyright compliance                | GPL-3.0           |
-
-| [SPDX License List](https://github.com/spdx/license-list-data)        | Canonical license metadata                    | CC0-1.0           |
+| Project | Stars | Primary Capability | License |
+| --------------------------------------------------------------------- | ------------------- | --------------------------------------------- | ----------------- |
+| [Licensee](https://github.com/licensee/licensee) | [![GitHub stars](https://img.shields.io/github/stars/licensee/licensee?style=social&color=white)](https://github.com/licensee/licensee/stargazers) | Detect repository license automatically | MIT |
+| [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit) | [![GitHub stars](https://img.shields.io/github/stars/aboutcode-org/scancode-toolkit?style=social&color=white)](https://github.com/aboutcode-org/scancode-toolkit/stargazers) | License + copyright + package detection | Apache-2.0 |
+| [REUSE](https://github.com/fsfe/reuse-tool) | [![GitHub stars](https://img.shields.io/github/stars/fsfe/reuse-tool?style=social&color=white)](https://github.com/fsfe/reuse-tool/stargazers) | Repository license and copyright metadata compliance | GPL-3.0 |
+| [FOSSology](https://github.com/fossology/fossology) | [![GitHub stars](https://img.shields.io/github/stars/fossology/fossology?style=social&color=white)](https://github.com/fossology/fossology/stargazers) | License / copyright / export-control scanning workflow | GPL-2.0 |
+| [SPDX License List](https://github.com/spdx/license-list-data) | [![GitHub stars](https://img.shields.io/github/stars/spdx/license-list-data?style=social&color=white)](https://github.com/spdx/license-list-data/stargazers) | Canonical license metadata & SPDX expressions | CC0-1.0 |
+| [licensecheck](https://github.com/fossology/licensecheck) | [![GitHub stars](https://img.shields.io/github/stars/fossology/licensecheck?style=social&color=white)](https://github.com/fossology/licensecheck/stargazers) | Fast license detection library and CLI tool | GPL-2.0 |
+| [license-detector](https://github.com/go-enry/go-license-detector) | [![GitHub stars](https://img.shields.io/github/stars/go-enry/go-license-detector?style=social&color=white)](https://github.com/go-enry/go-license-detector/stargazers) | Go project license detection library & CLI | Apache-2.0 |
+| [AskALicense](https://github.com/benbalter/askalicense) | [![GitHub stars](https://img.shields.io/github/stars/benbalter/askalicense?style=social&color=white)](https://github.com/benbalter/askalicense/stargazers) | License identification and API metadata service | MIT |
+| [Ninka](https://github.com/dmgerman/ninka) | [![GitHub stars](https://img.shields.io/github/stars/dmgerman/ninka?style=social&color=white)](https://github.com/dmgerman/ninka/stargazers) | Source code license scanner using regex matching | GPL-2.0 |
 
 
 
@@ -454,29 +365,18 @@ SCA tools identify the third-party components and dependencies contained within 
 
 
 
-| Project                                                                 | Dependency Analysis | License Analysis | SBOM | Vulnerabilities |
-
-| ----------------------------------------------------------------------- | :-----------------: | :--------------: | :--: | :-------------: |
-
-| [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort)         |          ✅          |         ✅        |   ✅  |        ✅        |
-
-| [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit)   |          ✅          |         ✅        |   ✅  |        ⚠️       |
-
-| [ScanCode.io](https://github.com/aboutcode-org/scancode.io)             |          ✅          |         ✅        |   ✅  |        ✅        |
-
-| [Syft](https://github.com/anchore/syft)                                 |          ✅          |        ⚠️        |   ✅  |        ❌        |
-
-| [Trivy](https://github.com/aquasecurity/trivy)                          |          ✅          |         ✅        |   ✅  |        ✅        |
-
-| [Dependency-Track](https://github.com/DependencyTrack/dependency-track) |          ⚠️         |        ⚠️        |   ✅  |        ✅        |
-
-| [FOSSology](https://github.com/fossology/fossology)                     |          ⚠️         |         ✅        |   ✅  |        ⚠️       |
-
-| [SW360](https://github.com/eclipse-sw360/sw360)                         |          ⚠️         |         ✅        |   ✅  |        ✅        |
-
-| [Grype](https://github.com/anchore/grype)                               |          ✅          |         ❌        |  ⚠️  |        ✅        |
-
-| [OSV-Scanner](https://github.com/google/osv-scanner)                    |          ✅          |         ❌        |  ⚠️  |        ✅        |
+| Project | Stars | Dependency Analysis | License Analysis | SBOM | Vulnerabilities |
+| ----------------------------------------------------------------------- | ------------------- | :-----------------: | :--------------: | :--: | :-------------: |
+| [Trivy](https://github.com/aquasecurity/trivy) | [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers) | ✅ | ✅ | ✅ | ✅ |
+| [Syft](https://github.com/anchore/syft) | [![GitHub stars](https://img.shields.io/github/stars/anchore/syft?style=social&color=white)](https://github.com/anchore/syft/stargazers) | ✅ | ⚠️ | ✅ | ❌ |
+| [OSV-Scanner](https://github.com/google/osv-scanner) | [![GitHub stars](https://img.shields.io/github/stars/google/osv-scanner?style=social&color=white)](https://github.com/google/osv-scanner/stargazers) | ✅ | ❌ | ⚠️ | ✅ |
+| [Grype](https://github.com/anchore/grype) | [![GitHub stars](https://img.shields.io/github/stars/anchore/grype?style=social&color=white)](https://github.com/anchore/grype/stargazers) | ✅ | ❌ | ⚠️ | ✅ |
+| [Dependency-Track](https://github.com/DependencyTrack/dependency-track) | [![GitHub stars](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=social&color=white)](https://github.com/DependencyTrack/dependency-track/stargazers) | ⚠️ | ⚠️ | ✅ | ✅ |
+| [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit) | [![GitHub stars](https://img.shields.io/github/stars/aboutcode-org/scancode-toolkit?style=social&color=white)](https://github.com/aboutcode-org/scancode-toolkit/stargazers) | ✅ | ✅ | ✅ | ⚠️ |
+| [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort) | [![GitHub stars](https://img.shields.io/github/stars/oss-review-toolkit/ort?style=social&color=white)](https://github.com/oss-review-toolkit/ort/stargazers) | ✅ | ✅ | ✅ | ✅ |
+| [FOSSology](https://github.com/fossology/fossology) | [![GitHub stars](https://img.shields.io/github/stars/fossology/fossology?style=social&color=white)](https://github.com/fossology/fossology/stargazers) | ⚠️ | ✅ | ✅ | ⚠️ |
+| [SW360](https://github.com/eclipse-sw360/sw360) | [![GitHub stars](https://img.shields.io/github/stars/eclipse-sw360/sw360?style=social&color=white)](https://github.com/eclipse-sw360/sw360/stargazers) | ⚠️ | ✅ | ✅ | ✅ |
+| [ScanCode.io](https://github.com/aboutcode-org/scancode.io) | [![GitHub stars](https://img.shields.io/github/stars/aboutcode-org/scancode.io?style=social&color=white)](https://github.com/aboutcode-org/scancode.io/stargazers) | ✅ | ✅ | ✅ | ✅ |
 
 
 
@@ -1154,23 +1054,15 @@ License compliance increasingly overlaps with software supply-chain security.
 
 
 
-| Project                                                                 |   License  | SBOM | Vulnerabilities | Licenses |
-
-| ----------------------------------------------------------------------- | :--------: | :--: | :-------------: | :------: |
-
-| [Trivy](https://github.com/aquasecurity/trivy)                          | Apache-2.0 |   ✅  |        ✅        |     ✅    |
-
-| [Syft](https://github.com/anchore/syft)                                 | Apache-2.0 |   ✅  |        ❌        |    ⚠️    |
-
-| [Grype](https://github.com/anchore/grype)                               | Apache-2.0 |  ⚠️  |        ✅        |     ❌    |
-
-| [OSV-Scanner](https://github.com/google/osv-scanner)                    | Apache-2.0 |  ⚠️  |        ✅        |     ❌    |
-
-| [Dependency-Track](https://github.com/DependencyTrack/dependency-track) | Apache-2.0 |   ✅  |        ✅        |    ⚠️    |
-
-| [ORT](https://github.com/oss-review-toolkit/ort)                        | Apache-2.0 |   ✅  |        ✅        |     ✅    |
-
-| [ScanCode](https://github.com/aboutcode-org/scancode-toolkit)           | Apache-2.0 |   ✅  |        ⚠️       |     ✅    |
+| Project | Stars | License | SBOM | Vulnerabilities | Licenses |
+| ----------------------------------------------------------------------- | ------------------- | :--------: | :--: | :-------------: | :------: |
+| [Trivy](https://github.com/aquasecurity/trivy) | [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers) | Apache-2.0 | ✅ | ✅ | ✅ |
+| [Syft](https://github.com/anchore/syft) | [![GitHub stars](https://img.shields.io/github/stars/anchore/syft?style=social&color=white)](https://github.com/anchore/syft/stargazers) | Apache-2.0 | ✅ | ❌ | ⚠️ |
+| [OSV-Scanner](https://github.com/google/osv-scanner) | [![GitHub stars](https://img.shields.io/github/stars/google/osv-scanner?style=social&color=white)](https://github.com/google/osv-scanner/stargazers) | Apache-2.0 | ⚠️ | ✅ | ❌ |
+| [Grype](https://github.com/anchore/grype) | [![GitHub stars](https://img.shields.io/github/stars/anchore/grype?style=social&color=white)](https://github.com/anchore/grype/stargazers) | Apache-2.0 | ⚠️ | ✅ | ❌ |
+| [Dependency-Track](https://github.com/DependencyTrack/dependency-track) | [![GitHub stars](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=social&color=white)](https://github.com/DependencyTrack/dependency-track/stargazers) | Apache-2.0 | ✅ | ✅ | ⚠️ |
+| [ScanCode](https://github.com/aboutcode-org/scancode-toolkit) | [![GitHub stars](https://img.shields.io/github/stars/aboutcode-org/scancode-toolkit?style=social&color=white)](https://github.com/aboutcode-org/scancode-toolkit/stargazers) | Apache-2.0 | ✅ | ⚠️ | ✅ |
+| [ORT](https://github.com/oss-review-toolkit/ort) | [![GitHub stars](https://img.shields.io/github/stars/oss-review-toolkit/ort?style=social&color=white)](https://github.com/oss-review-toolkit/ort/stargazers) | Apache-2.0 | ✅ | ✅ | ✅ |
 
 
 
@@ -3096,46 +2988,40 @@ Licenses also change over time, and a project may contain components under multi
 
 ---
 
-
-
-## ⭐ Star This Repository
-
-
-
-If you are interested in:
-
-
-
-* Open-Source License Compliance
-
-* Software Composition Analysis
-
-* OSS Governance
-
-* SBOM
-
-* SPDX
-
-* CycloneDX
-
-* FOSS Compliance
-
-* License Scanning
-
-* Software Supply Chain
-
-* Open-Source Governance
-
-* LegalTech for Software
-
-
-
-consider giving this repository a ⭐ **Star** and contributing new projects.
-
-
+## 📈 Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-License-Compliance-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-License-Compliance-Platform&type=date&legend=top-left)
 
 ---
 
+## 💖 Support & Sponsorship
 
+If you find this repository helpful for your software composition analysis, open-source governance, or license compliance initiatives, please consider supporting the project! 🌟
+
+- ⭐ **Star this repository** to help others discover it.
+- 🔀 **Fork and share** it with your engineering, security, and legal teams.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance and curation on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⭐ Star This Repository
+
+If you are interested in:
+
+* Open-Source License Compliance
+* Software Composition Analysis
+* OSS Governance
+* SBOM
+* SPDX
+* CycloneDX
+* FOSS Compliance
+* License Scanning
+* Software Supply Chain
+* Open-Source Governance
+* LegalTech for Software
+
+consider giving this repository a ⭐ **Star** and contributing new projects.
+
+---
 
 **Last updated: September 2026**
+
